@@ -1,4 +1,4 @@
-// Your web app's Firebase configuration
+// Web app's Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyB6Izsku_qLcnr9lc0Ivj5eejB7-5FCaRE",
     authDomain: "test-form-d3492.firebaseapp.com",
@@ -79,10 +79,10 @@ retrieveInfos();
 function sendEmail(name, email, message) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: 'gjs190201@gmail.com',
+        Username: 'gjs1921@gmail.com',
         Password: "zuofhxlktobtqhhc",
-        To: 'gjs190201@gmail.com',
-        From: 'gjs190201@gmail.com',
+        To: 'gjs1921@gmail.com',
+        From: 'gjs1921@gmail.com',
         Subject: `${name} sent you a message`,
         Body: `Name: ${name} <br/> Email: ${email} <br/> Message: ${message}`,
     }).then(
